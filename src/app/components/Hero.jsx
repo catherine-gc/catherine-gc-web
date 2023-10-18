@@ -70,15 +70,15 @@ const HeroSection = () => {
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
-          className="col-span-4 place-self-center mt-4 lg:mt-0"
+          className=" w-auto col-span-4 place-self-center mt-4 lg:mt-0 "
         >
-          <div className="rounded-full bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary-900 to-transparent w-[350px] h-[350px] lg:w-[700px] lg:h-[700px] relative blur-xs">
+          <div className="rounded-full bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary-900 w-[350px] h-[350px] lg:w-[600px] lg:h-[600px] relative">
             <Image
               src="/images/Cat1.jpg"
               alt="blob image"
               className="absolute rounded-full transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-              width={600}
-              height={600}
+              width={500}
+              height={500}
             />
           </div>
         </motion.div>
