@@ -9,7 +9,7 @@ import PerformancesSection from './components/PerformancesSection';
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col bg-pink-100">
+    <main className="container mx-auto flex min-h-screen flex-col bg-pink-100">
       <Navbar />
       <div className="container mt-20 mx-auto px-12 py-4">
         <Hero />
