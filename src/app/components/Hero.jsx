@@ -77,8 +77,8 @@ const HeroSection = () => {
               src="/images/Cat1.jpg"
               alt="blob image"
               className="absolute rounded-full transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-              width={250}
-              height={250}
+              width={285}
+              height={285}
             />
           </div>
         </motion.div>

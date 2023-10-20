@@ -45,7 +45,7 @@ const EmailSection = () => {
     >
       <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary-900 to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-3/4 -left-4 transform -translate-x-1/2 -translate-1/2"></div>
       <div className="z-10">
-        <h5 className="text-xl mt-6 font-bold drop-shadow-sm text-slate-900 my-2">
+        <h5 className="text-xl mt-8 font-bold drop-shadow-sm text-slate-900 my-2">
           Let&apos;s Connect
         </h5>
         <p className="text-[#767677] mb-6 max-w-md">
@@ -63,13 +63,13 @@ const EmailSection = () => {
           </Link>
         </div>
       </div>
-      <div mt-10>
+      <div className=" mt-18">
         {emailSubmitted ? (
           <p className="text-slate-700 text-sm mt-2">
             Email sent successfully!
           </p>
         ) : (
-          <form className="flex flex-col" onSubmit={handleSubmit}>
+          <form className="flex flex-col mt-8" onSubmit={handleSubmit}>
             <div className="mb-6">
               <label
                 htmlFor="email"
