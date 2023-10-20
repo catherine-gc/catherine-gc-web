@@ -19,9 +19,6 @@ module.exports = {
       primary: colors.purple,
       secondary: colors.pink,
     },
-    screens: {
-      'xs': {'min': '475px', 'max': '639px'},
-    },
   },
   plugins: [],
 };
