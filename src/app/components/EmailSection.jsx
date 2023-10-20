@@ -41,11 +41,11 @@ const EmailSection = () => {
   return (
     <section
       id="contact"
-      className="grid mb-10 md:grid-cols-2 my-10 md:my-8 py-14 gap-4 relative"
+      className="grid mb-10 md:grid-cols-2 my-14 md:my-8 py-18 gap-4 relative"
     >
       <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary-900 to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-3/4 -left-4 transform -translate-x-1/2 -translate-1/2"></div>
       <div className="z-10">
-        <h5 className="text-xl font-bold drop-shadow-sm text-slate-900 my-2">
+        <h5 className="text-xl mt-6 font-bold drop-shadow-sm text-slate-900 my-2">
           Let&apos;s Connect
         </h5>
         <p className="text-[#767677] mb-6 max-w-md">
