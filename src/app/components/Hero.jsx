@@ -72,13 +72,13 @@ const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className=" w-auto pr-12 col-span-4 place-self-center mt-4 lg:mt-0 "
         >
-          <div className="rounded-full pr-8 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary-900 w-[350px] h-[350px] lg:w-[550px] lg:h-[550px] relative">
+          <div className="rounded-full pr-8 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary-900 w-[300px] h-[300px] lg:w-[450px] lg:h-[450px] relative">
             <Image
               src="/images/Cat1.jpg"
               alt="blob image"
               className="absolute rounded-full transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-              width={450}
-              height={450}
+              width={250}
+              height={250}
             />
           </div>
         </motion.div>

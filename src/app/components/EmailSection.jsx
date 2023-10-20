@@ -63,7 +63,7 @@ const EmailSection = () => {
           </Link>
         </div>
       </div>
-      <div>
+      <div mt-10>
         {emailSubmitted ? (
           <p className="text-slate-700 text-sm mt-2">
             Email sent successfully!
